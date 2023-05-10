@@ -11,8 +11,10 @@ export class AppComponent {
   title = 'crud-App';
 
   constructor(private _dialog: MatDialog){}
+
   openEditAddForm(){
     this._dialog.open(EmpAddEditComponent);
 
   }
+  
 }
