@@ -40,18 +40,7 @@
       "experience": 8,
       "package": 120,
       "id": 2
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "email": "",
-      "dob": "",
-      "gender": "",
-      "education": "",
-      "company": "",
-      "experience": "",
-      "package": "",
-      "id": 3
     }
+ 
   ]
 }

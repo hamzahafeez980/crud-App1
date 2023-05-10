@@ -22,12 +22,13 @@ export class AppComponent implements OnInit {
     'education',
     'company',
     'experience',
-    'package',
+    'package'
   ];
   dataSource!: MatTableDataSource<any>;
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
+
 
   constructor(private _dialog: MatDialog, private _empService: EmployeeService){}
 
@@ -51,4 +52,13 @@ export class AppComponent implements OnInit {
     });
   }
   
+  
+  applyFilter(event: Event) {
+    const filterValue = (event.target as HTMLInputElement).value;
+    this.dataSource.filter = filterValue.trim().toLowerCase();
+
+    if (this.dataSource.paginator) {
+      this.dataSource.paginator.firstPage();
+    }
+  }
 }
