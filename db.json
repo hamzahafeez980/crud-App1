@@ -15,5 +15,43 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "employee": [
+    {
+      "firstName": "hamza",
+      "lastName": "Hafeez",
+      "email": "Hamza@gmail.com",
+      "dob": "1998-02-04T19:00:00.000Z",
+      "gender": "male",
+      "education": "Graduate",
+      "company": "microsoft",
+      "experience": 4,
+      "package": 20,
+      "id": 1
+    },
+    {
+      "firstName": "Tst",
+      "lastName": "Production",
+      "email": "Tst@g.com",
+      "dob": "2023-05-10T19:00:00.000Z",
+      "gender": "male",
+      "education": "Intermidiate",
+      "company": "Viftech",
+      "experience": 8,
+      "package": 120,
+      "id": 2
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "dob": "",
+      "gender": "",
+      "education": "",
+      "company": "",
+      "experience": "",
+      "package": "",
+      "id": 3
+    }
+  ]
 }
