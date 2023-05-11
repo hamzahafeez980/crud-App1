@@ -2,6 +2,7 @@
 <div matDialogTitle>
     <h1>Employee Form</h1>
 </div>
+
 <form [formGroup]="empForm" (ngSubmit)="onSubmitForm()">
 <div matDialogContent class="Content">
     <div class="row">
@@ -63,7 +64,7 @@
  
 </div>
 <div matDialogActions class="actions">
-    <button mat-raised-button >Cancel</button>
+    <button mat-raised-button type="button"  [mat-dialog-close]="false">Cancel</button>
     <button mat-raised-button color="primary" type="submit">Save</button>
 </div>
 </form>
